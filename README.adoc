@@ -1,0 +1,10 @@
+= Red Hat Fuse (Camel) MQTT Sample 
+
+== Running project locally 
+
+    mvn spring-boot:run
+
+== Deploy on openshift 
+
+    mvn fabric8:deploy -Popenshift -DskipTests
+
